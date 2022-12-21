@@ -68,6 +68,10 @@ h1 {
 }
 
 /* Form */
+
+.form-container {
+  margin-bottom: 5rem;
+}
 form {
   background-color: #fff;
   color: var(--Dark-Blue);
