@@ -24,7 +24,7 @@ main {
   background: url(./images/bg-intro-mobile.png);
   background-size: cover;
   background-color: var(--Red);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .outer-container {
