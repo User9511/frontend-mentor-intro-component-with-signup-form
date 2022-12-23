@@ -23,24 +23,39 @@
               then $20/mo. thereafter
             </p>
           </button>
-          <form>
-            <label for="fname" class="hide-element">First Name</label>
-            <input type="text" id="fname" name="fname" placeholder="First Name" />
+          <form id="form">
+            <label for="fname" class="hide-label">First Name</label>
+            <input type="text" class="input" id="fname" name="fname" placeholder="First Name" required />
+            <div class="error-msg">
+              <i>First Name cannot be empty</i>
+            </div>
 
-            <label for="lname" class="hide-element">Last Name</label>
-            <input type="text" id="lname" name="lname" placeholder="Last Name" />
+            <label for="lname" class="hide-label">Last Name</label>
+            <input type="text" class="input" id="lname" name="lname" placeholder="Last Name" required />
+            <div class="error-msg">
+              <i>Last Name cannot be empty</i>
+            </div>
 
-            <label for="email" class="hide-element">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="Email Address" />
+            <label for="email" class="hide-label">Email Address</label>
+            <input type="email" class="input" id="email" name="email" placeholder="Email Address" required />
+            <div class="error-msg">
+              <i>Looks like this is not an email</i>
+            </div>
 
-            <label for="password" class="hide-element">Password</label>
-            <input type="password" id="password" name="password" placeholder="Password" />
+            <label for="password" class="hide-label">Password</label>
+            <input type="password" class="input" id="password" name="password" placeholder="Password" required />
+            <div class="error-msg">
+              <i>Password cannot be empty</i>
+            </div>
 
-            <button class="btn btn-2">Claim your free trial</button>
+            <button type="submit" class="btn btn-2">Claim your free trial</button>
             <p class="terms">By clicking the button, you are agreeing to our <span class="terms-red">Terms and Services</span></p>
           </form>
         </div>
       </div>
     </main>
+    <script src="./app.js"></script>
   </body>
 </html>
+
+<!-- https://www.frontendmentor.io/solutions/introcomponentwithsignupform-html-css-js-X0K4iCAc0 -->
