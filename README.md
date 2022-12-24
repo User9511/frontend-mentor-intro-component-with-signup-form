@@ -1,7 +1,7 @@
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-jsRu7eaVMS)
-- Live Site URL: [](https://smgy94.github.io/frontend-mentor-intro-component-with-signup-form/)
+- [Solution URL:](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-jsRu7eaVMS)
+- [Live Site URL:](https://smgy94.github.io/frontend-mentor-intro-component-with-signup-form/)
 
 # Frontend Mentor - Intro component with sign up form solution
 
